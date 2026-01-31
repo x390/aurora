@@ -24,6 +24,8 @@ modules:
     install:
       packages:
         - mullvad-vpn
+        - winetricks
+        - protontricks
    # remove:
    #   packages:
    #     # example: removing firefox (in favor of the flatpak)
