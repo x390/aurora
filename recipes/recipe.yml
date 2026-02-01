@@ -21,14 +21,9 @@ modules:
     repos:
       files:
         - https://repository.mullvad.net/rpm/stable/mullvad.repo
-        - https://negativo17.org/repos/fedora-steam.repo
     install:
       packages:
         - mullvad-vpn
-        - steam
-        - kernel-modules-extra
-        - winetricks
-        - protontricks
    # remove:
    #   packages:
    #     # example: removing firefox (in favor of the flatpak)
