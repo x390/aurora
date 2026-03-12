@@ -17,6 +17,10 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
+  - type: script
+    snippets:
+      - "curl -SsL https://raw.githubusercontent.com/nymtech/nym-vpn-client/refs/heads/develop/.pkg/linux/install | bash"
+  
   - type: dnf
     repos:
       files:
